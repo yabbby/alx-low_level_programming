@@ -1,0 +1,4 @@
+*-main.py
+*.c
+*.h
+__pycache__
