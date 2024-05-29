@@ -1,0 +1,10 @@
+CC=gcc
+SRC=%.c
+OBJ=%.o
+NAME=school
+
+all: main.o school.o
+	$(CC) $^ -o $(NAME)
+
+$(OBJ): $(SRC)
+	gcc -c $< -o $@
